@@ -28,7 +28,6 @@ public class EmployeeService {
 	
 	public Employee save(Employee emp)
 	{
-		System.out.println("Hello World");
 		return employeeRepository.save(emp);
 	}
 	
@@ -41,5 +40,4 @@ public class EmployeeService {
 		employeeRepository.save(emp);
 	}
 	
-
 }
