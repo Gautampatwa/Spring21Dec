@@ -16,7 +16,7 @@ public class CrudUsingJpaMastercardApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Hello");
+		System.out.println("Hello World Welcome to Srping Boot application");
 		this.employee.studying();
 	}
 }
